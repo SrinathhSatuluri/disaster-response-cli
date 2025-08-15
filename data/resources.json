@@ -1,0 +1,74 @@
+{
+  "resources": [
+    {
+      "id": "RES-001",
+      "type": "vehicle",
+      "name": "Ambulance Alpha",
+      "status": "available",
+      "location": "Station A",
+      "latitude": 40.7128,
+      "longitude": -74.0060,
+      "description": "Emergency medical transport vehicle",
+      "capacity": "2 patients + 2 crew",
+      "equipment": ["defibrillator", "oxygen", "first_aid_kit"]
+    },
+    {
+      "id": "RES-002",
+      "type": "vehicle",
+      "name": "Fire Truck Bravo",
+      "status": "available",
+      "location": "Station B",
+      "latitude": 40.7589,
+      "longitude": -73.9851,
+      "description": "Fire suppression and rescue vehicle",
+      "capacity": "6 firefighters",
+      "equipment": ["water_tank", "ladders", "jaws_of_life", "hoses"]
+    },
+    {
+      "id": "RES-003",
+      "type": "equipment",
+      "name": "Portable Generator",
+      "status": "available",
+      "location": "Warehouse C",
+      "latitude": 40.7505,
+      "longitude": -73.9934,
+      "description": "Emergency power generation",
+      "capacity": "5000W",
+      "fuel_type": "gasoline"
+    },
+    {
+      "id": "RES-004",
+      "type": "equipment",
+      "name": "Water Purification Unit",
+      "status": "maintenance",
+      "location": "Warehouse C",
+      "latitude": 40.7505,
+      "longitude": -73.9934,
+      "description": "Portable water treatment system",
+      "capacity": "1000L/hour",
+      "filters": ["sediment", "carbon", "uv_sterilization"]
+    },
+    {
+      "id": "RES-005",
+      "type": "personnel",
+      "name": "Search and Rescue Team",
+      "status": "available",
+      "location": "Station A",
+      "latitude": 40.7128,
+      "longitude": -74.0060,
+      "description": "Specialized rescue personnel",
+      "size": "8 members",
+      "specialties": ["urban_search", "water_rescue", "high_angle_rescue"]
+    }
+  ],
+  "metadata": {
+    "last_updated": "2024-01-15T10:30:00Z",
+    "total_resources": 5,
+    "resource_types": ["vehicle", "equipment", "personnel"],
+    "status_summary": {
+      "available": 4,
+      "maintenance": 1,
+      "in_use": 0
+    }
+  }
+}
