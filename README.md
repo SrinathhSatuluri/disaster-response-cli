@@ -244,7 +244,7 @@ python test_enhanced_cli.py
 
 ## Advanced Features
 
-### 🎨 Enhanced CLI Styling and Emergency Alerts
+###  Enhanced CLI Styling and Emergency Alerts
 
 The CLI now features comprehensive Rich styling for better readability during emergencies:
 
